@@ -1,0 +1,238 @@
+120924_010513: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_SingleA_6Aug_ReReo.cfg
+120924_010615: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_010622: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_012248: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_012300: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_013836: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_015009: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_015550: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_015625: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_020628: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_023100: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_235801: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_235814: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -get -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+120924_235821: /uscmst1/prod/grid/CRAB_2_8_2_patch1/python/crab.py -status -c crabDir/data12/SingleMuA_6Aug_ReReo_3_1_7/
+121204_233807: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_Herwig_WJets.cfg
+121204_233917: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121204_233934: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_Herwig_WJets.cfg
+121205_001842: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_Herwig_WJets.cfg
+121205_025041: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_Herwig_WJets.cfg
+121205_025827: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_025915: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -getoutput 1-24,27 -c crabDir/mc12/Herwig_WJets/
+121205_025926: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_030006: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -kill 42,55-73 -c crabDir/mc12/Herwig_WJets/
+121205_030110: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_030145: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -kill 183-401 -c crabDir/mc12/Herwig_WJets/
+121205_030153: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -kill 183-401 -c crabDir/mc12/Herwig_WJets/
+121205_054414: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_062135: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_Herwig_WJets.cfg
+121205_062430: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_063225: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_063301: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_064031: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_064130: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_064528: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_090844: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_090853: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_090948: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 1-40,43-258,260-401 -c crabDir/mc12/Herwig_WJets/
+121205_091101: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_091214: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_091613: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_091820: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_092522: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_102117: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/Herwig_WJets/
+121205_102202: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 41-42,259 -c crabDir/mc12/Herwig_WJets/
+121207_073533: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_SingleElectron_A.cfg
+121207_073645: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_SingleElectron_B_1.cfg
+121207_073752: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_SingleElectron_B_2.cfg
+121207_074353: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_A/
+121207_093319: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121207_093356: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 1-29,31-36,38-41,43-44,46-47,49 -c crabDir/data12/SingleElectron_B_1
+121207_093413: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121207_093627: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_A
+121207_093655: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -getoutput 1-47 -c crabDir/data12/SingleElectron_A
+121207_093724: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121207_093736: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_A
+121207_093757: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121207_093823: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 30,45,48 -c crabDir/data12/SingleElectron_B_1
+121207_093841: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121207_093906: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 3-5,8,10-11,13-15,18-21,26,29-30,33,39,42-43,45,48-49 -c crabDir/data12/SingleElectron_B_2
+121207_093917: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_210930: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_A
+121209_211019: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121209_211048: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_211108: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 1-2,6-7,9,12,16-17,22-25,27-28,31-32,34-38,40-41,44,46-47 -c crabDir/data12/SingleElectron_B_2
+121209_211130: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_211310: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -forceResubmit 41 -c crabDir/data12/SingleElectron_B_2
+121209_211320: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_211328: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_211336: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -forceResubmit 41 -c crabDir/data12/SingleElectron_B_1
+121209_211405: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -kill 41 -c crabDir/data12/SingleElectron_B_1
+121209_211413: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_211441: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_211449: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121209_211521: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 37,42 -c crabDir/data12/SingleElectron_B_1
+121209_211706: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121209_211819: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -forceResubmit 29 -c crabDir/data12/SingleElectron_B_1
+121209_211826: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_211906: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121209_214411: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121209_222444: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121209_222512: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 29 -c crabDir/data12/SingleElectron_B_1
+121209_223133: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121209_223329: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_232609: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121209_232623: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 41 -c crabDir/data12/SingleElectron_B_2
+121209_232642: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2
+121224_030424: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_A
+121224_030435: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_1
+121224_030443: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/data12/SingleElectron_B_2/
+121231_083744: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_el_Herwig_WJets.cfg
+121231_084648: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_085155: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 1-201 -c crabDir/mc12/el_Herwig_WJets/
+121231_085206: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_085831: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_el_Herwig_WJets.cfg
+121231_085930: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_085936: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_085951: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_090652: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_092349: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_092845: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_093531: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_103234: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_103255: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 1,3-25,27-30,32,201 -c crabDir/mc12/el_Herwig_WJets/
+121231_103310: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_110324: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_110850: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_193946: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+121231_194152: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -get 2,26,31,33-200 -c crabDir/mc12/el_Herwig_WJets/
+121231_194608: /uscmst1/prod/grid/CRAB_2_8_3/python/crab.py -status -c crabDir/mc12/el_Herwig_WJets/
+130528_173919: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_mu_DYJets.cfg
+130528_175830: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_mu_DYJets.cfg
+130528_190438: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_mu_DYJets.cfg
+130528_191157: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_mu_DYJets.cfg
+130528_192221: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130528_192238: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_DYJets/
+130528_192258: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130528_193756: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_mu_DYJets.cfg
+130528_193851: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_193859: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_193917: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_193923: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_193930: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_194007: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_194541: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_194605: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get
+130528_194616: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_195139: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_mu_Herwig_WJets.cfg
+130528_195232: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_mu_Herwig_WJets.cfg
+130528_195435: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_195537: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130528_195550: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get 1-134,136-138,142
+130528_195607: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130529_062603: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_mu_DYJets.cfg
+130529_062839: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130529_062851: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get 1-5
+130529_062858: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130529_154830: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130529_154844: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get
+130529_154911: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130529_160305: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130529_160316: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130529_161152: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg test.cfg
+130529_162446: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130529_162530: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get 1-20
+130529_162548: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status
+130530_035154: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -create -submit -cfg crabCfg/cb_ntuple_mu_DYJets.cfg
+130530_035310: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_035316: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_035321: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_035326: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_035333: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_040521: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_040537: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_044317: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_WW_v0 -USER.ui_working_dir=crabDir/mc12/mu_WW -CMSSW.datasetpath=/WW_TuneZ2star_8TeV_pythia6_tauola/ntran-SQWaT_PAT_WW_53x-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_044359: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_TTbar_v0 -USER.ui_working_dir=crabDir/mc12/mu_TTbar -CMSSW.datasetpath=/TTJets_MassiveBinDECAY_TuneZ2star_8TeV-madgraph-tauola/dimatteo-SQWaT_PAT_53X_Summer12_v1-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_044432: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_WZ_v0 -USER.ui_working_dir=crabDir/mc12/mu_WZ -CMSSW.datasetpath=/WZ_TuneZ2star_8TeV_pythia6_tauola/goodell-SQWaT_PAT_43X_Fall12_v1-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_044509: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_ZZ_v0 -USER.ui_working_dir=crabDir/mc12/mu_ZZ -CMSSW.datasetpath=/ZZ_TuneZ2star_8TeV_pythia6_tauola/ajkumar-SQWaT_PAT_53X_Summer12_v1-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_044852: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TTbar
+130530_044901: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_044919: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get 1,4-7,10-12,101 -c crabDir/mc12/mu_DYJets/
+130530_044927: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_045014: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_ZZ/
+130530_045023: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_WW/
+130530_045042: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get 1,3-4,6,101 -c crabDir/mc12/mu_WW/
+130530_045046: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_WW/
+130530_050913: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_WW/
+130530_051654: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_TtW_v0 -USER.ui_working_dir=crabDir/mc12/mu_TtW -CMSSW.datasetpath=/T_tW-channel-DR_TuneZ2star_8TeV-powheg-tauola/goodell-SQWaT_PAT_43X_Fall12_v1-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_051733: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_Tbart_v0 -USER.ui_working_dir=crabDir/mc12/mu_Tbart -CMSSW.datasetpath=/Tbar_t-channel_TuneZ2star_8TeV-powheg-tauola/goodell-SQWaT_PAT_43X_Fall12_v1-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_051810: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_TbartW_v0 -USER.ui_working_dir=crabDir/mc12/mu_TbartW -CMSSW.datasetpath=/Tbar_tW-channel-DR_TuneZ2star_8TeV-powheg-tauola/goodell-SQWaT_PAT_53X_Fall12_v1-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_051843: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_Tbars_v0 -USER.ui_working_dir=crabDir/mc12/mu_Tbars -CMSSW.datasetpath=/Tbar_s-channel_TuneZ2star_8TeV-powheg-tauola/goodell-SQWaT_PAT_53X_Fall12_v1-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_051916: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_Ts_v0 -USER.ui_working_dir=crabDir/mc12/mu_Ts -CMSSW.datasetpath=/T_s-channel_TuneZ2star_8TeV-powheg-tauola/goodell-SQWaT_PAT_43X_Fall12_v1-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_052005: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -USER.user_remote_dir=/store/user/zixu/ZJets -create -USER.publish_data_name=ntuple_mc12_mu_Tt_v0 -USER.ui_working_dir=crabDir/mc12/mu_Tt -CMSSW.datasetpath=/T_t-channel_TuneZ2star_8TeV-powheg-tauola/custodio-SQWaT_PAT_53X_Summer12_v1-829f288d768dd564418efaaf3a8ab9aa/USER -submit -cfg=crabCfg/cb_ntuple_ZJets_mu_mc.cfg
+130530_052650: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_052718: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_WW
+130530_052730: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_WW
+130530_052746: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_WW
+130530_052808: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_WZ
+130530_052821: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_WZ
+130530_052929: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_WZ
+130530_052948: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_ZZ
+130530_053003: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_ZZ
+130530_053012: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_ZZ
+130530_053038: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_ZZ
+130530_053338: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TTbar/
+130530_053346: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130530_053503: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -resubmit 60 -c crabDir/mc12/mu_ZZ
+130530_053514: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_ZZ
+130530_053848: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tbars
+130531_032627: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_ZZ/
+130531_033903: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get 60 -c crabDir/mc12/mu_ZZ/
+130531_034116: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_ZZ/
+130531_034137: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130531_034147: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_DYJets/
+130531_034236: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130531_034313: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -resubmit 55,84 -c crabDir/mc12/mu_DYJets/
+130531_034347: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TTbar/
+130531_034359: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_TTbar/
+130531_034440: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TTbar/
+130531_034500: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tbars
+130531_034528: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_Tbars/
+130531_034836: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tbars/
+130531_034919: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -resubmit 4,6,7,53,84 -c crabDir/mc12/mu_Tbars/
+130531_034929: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tbart
+130531_034939: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_Tbart
+130531_035000: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tbart
+130531_035017: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TbartW/
+130531_035026: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_TbartW/
+130531_035046: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TbartW/
+130531_035116: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Ts/
+130531_035124: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_Ts
+130531_035143: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Ts/
+130531_035232: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -resubmit 11,15,50,55,61,64,68-70,75,77,80-84,86,89,94,97-99 -c crabDir/mc12/mu_Ts/
+130531_035246: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tt
+130531_035259: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_Tt
+130531_035320: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tt
+130531_043156: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tt
+130531_043244: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -resubmit 5,7,11,17,32,45,49,51,54,61 -c crabDir/mc12/mu_Tt
+130531_112407: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130531_112436: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get 55,84 -c crabDir/mc12/mu_DYJets/
+130531_112747: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_DYJets/
+130531_112813: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tbars/
+130531_112828: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get 4,6-7,53,84 -c crabDir/mc12/mu_Tbars/
+130531_112833: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tbars/
+130531_112856: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TbartW
+130531_112906: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_TbartW
+130531_112914: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TbartW
+130531_112935: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Ts
+130531_112948: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_Ts
+130531_112954: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Ts
+130531_113003: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tt
+130531_113125: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_Tt
+130531_113132: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_Tt
+130531_113224: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TtW
+130531_113234: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -get -c crabDir/mc12/mu_TtW
+130531_113246: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TtW
+130531_113305: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -status -c crabDir/mc12/mu_TbartW
+130531_113320: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -resubmit 60318 -c crabDir/mc12/mu_TbartW
+130531_113339: /uscmst1/prod/grid/CRAB_2_8_7_patch2/python/crab.py -resubmit 2,6 -c crabDir/mc12/mu_TbartW
