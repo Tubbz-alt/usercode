@@ -169,15 +169,7 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 	fChain->SetBranchStatus("JetPFCor_SumPtCands",    0);
 	fChain->SetBranchStatus("JetPFCor_SumPt2Cands",    0);
 	fChain->SetBranchStatus("JetPFCor_rmsCands",    0);
-	fChain->SetBranchStatus("*VBF*",    0);
-	fChain->SetBranchStatus("*EWK*",    0);
-	fChain->SetBranchStatus("*AK5*",    0);
 	// Drop gen jet information
-	fChain->SetBranchStatus("*Gen*",    0);
-	fChain->SetBranchStatus("Z_Parton_*",    0);  
-	fChain->SetBranchStatus("Z_Lepton_*",    0);  
-	fChain->SetBranchStatus("Z_Met_*",    0);
-	fChain->SetBranchStatus("Z_TagQuark_*",    0);
 	//Drop Some Groomed information
 	//fChain->SetBranchStatus("GroomedJet_*_pt_uncorr" , 0);
 	//fChain->SetBranchStatus("GroomedJet_*_tau1" , 0);
@@ -205,13 +197,12 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 	fChain->SetBranchStatus("cosJackson*",0);
 	fChain->SetBranchStatus("cosphiDecayPlane*",0);
 	fChain->SetBranchStatus("colorCorrPull*",0);
-	fChain->SetBranchStatus("Z_TagQuark*",0);
 
 
 	TTree *newtree = fChain->CloneTree();
-	char textfn[100]; 
-	sprintf(textfn,"%s.txt", rootfn);
-	FILE *textfile = fopen(textfn,"w");
+	//char textfn[100]; 
+	//sprintf(textfn,"%s.txt", rootfn);
+	//FILE *textfile = fopen(textfn,"w");
 
 	Int_t   ggdevt   =0,   evtNJ     =0;
 	Int_t   ggdevtinclusive   =0; //For inclusive Jet Bin
@@ -408,7 +399,7 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 	TBranch * branch_boostedZ_zjj_ang_phia = newtree->Branch("boostedZ_zjj_ang_phia", &boostedZ_zjj_ang_phia,  "boostedZ_zjj_ang_phia/F");
 	TBranch * branch_boostedZ_zjj_ang_phib = newtree->Branch("boostedZ_zjj_ang_phib", &boostedZ_zjj_ang_phib,  "boostedZ_zjj_ang_phib/F");
 
-	//Event Flag for Boosted W Analysis With AK7
+	/*//Event Flag for Boosted W Analysis With AK7
 	Int_t   ggdboostedZevt_ak7 =0;
 	TBranch *branch_ggdboostedZevt_ak7 = newtree->Branch("ggdboostedZevt_ak7", &ggdboostedZevt_ak7, "ggdboostedZevt_ak7/I"); 
 
@@ -513,7 +504,9 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 	TBranch * branch_boostedZ_zjj_ang_phi_ak7  = newtree->Branch("boostedZ_zjj_ang_phi_ak7",  &boostedZ_zjj_ang_phi_ak7,   "boostedZ_zjj_ang_phi_ak7/F");
 	TBranch * branch_boostedZ_zjj_ang_phia_ak7 = newtree->Branch("boostedZ_zjj_ang_phia_ak7", &boostedZ_zjj_ang_phia_ak7,  "boostedZ_zjj_ang_phia_ak7/F");
 	TBranch * branch_boostedZ_zjj_ang_phib_ak7 = newtree->Branch("boostedZ_zjj_ang_phib_ak7", &boostedZ_zjj_ang_phib_ak7,  "boostedZ_zjj_ang_phib_ak7/F");
+	*/
 	//End Some More Variables To be Added in the Reduced Tree Or used in the TMVA Training
+	
 
 
 	EffTableLoader muIDEff(            fDir + "scaleFactor-Run2012ABCD-RecoToIso.txt");
@@ -761,7 +754,7 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 
 		boostedZ_zjj_ang_ha = 999; boostedZ_zjj_ang_hb = 999; boostedZ_zjj_ang_hs = 999; boostedZ_zjj_ang_phi = 999; boostedZ_zjj_ang_phia = 999; boostedZ_zjj_ang_phib = 999;
 
-		//AK7
+		/*//AK7
 		ggdboostedZevt_ak7 = 0; GroomedJet_numberbjets_csvm_ak7 = 0; GroomedJet_numberbjets_csvl_ak7 = 0; GroomedJet_numberbjets_csvl_veto_ak7 = 0; GroomedJet_numberbjets_csvm_veto_ak7 = 0; GroomedJet_numberjets_ak7 = 0;
 
 		GroomedJet_AK7_deltaR_lplusak7jet = -999;
@@ -790,7 +783,7 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 		boostedZ_llj_e_ak7=-999;   boostedZ_llj_pt_ak7=-999;   boostedZ_llj_eta_ak7=-999;   boostedZ_llj_phi_ak7=-999;   boostedZ_llj_m_ak7=-999;   boostedZ_llj_y_ak7=-999;
 
 		boostedZ_zjj_ang_ha_ak7 = 999; boostedZ_zjj_ang_hb_ak7 = 999; boostedZ_zjj_ang_hs_ak7 = 999; boostedZ_zjj_ang_phi_ak7 = 999; boostedZ_zjj_ang_phia_ak7 = 999; boostedZ_zjj_ang_phib_ak7 = 999;
-
+        */
 
 
 		// Calculate efficiency
@@ -1216,7 +1209,7 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 			boostedZ_zjj_ang_ha = a_costheta1; boostedZ_zjj_ang_hb = fabs(a_costheta2); boostedZ_zjj_ang_hs = a_costhetastar;  boostedZ_zjj_ang_phi = a_phi; boostedZ_zjj_ang_phia = a_phistar1; boostedZ_zjj_ang_phib = a_phistar2;
 
 			//Input For the TMVA Training And Classification TODO
-
+/*
 			//check the AK7 Jet Used in our Reduced Tree
 			TLorentzVector ak7jetp4;
 			ak7jetp4.SetPtEtaPhiE(GroomedJet_AK7_pt[0], GroomedJet_AK7_eta[0], GroomedJet_AK7_phi[0], GroomedJet_AK7_e[0]);
@@ -1255,10 +1248,6 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 					{
 						GroomedJet_numberbjets_csvl_ak7 = GroomedJet_numberbjets_csvl_ak7 + 1;
 					}
-					/*if(JetPFCor_bDiscriminator[i] > btssv && tmpdelatR > 0.7 && tmpdeltaRlj > TMath::Pi()/2.0)//Veto the AK5 jet in the AK7 jet cone and Move to CSVM tagger
-					{
-						GroomedJet_numberbjets_ssvhem_ak7 = GroomedJet_numberbjets_ssvhem_ak7 + 1;
-					}*/
 					if(JetPFCor_bDiscriminatorCSV[i] > btcsvl)//ttbar veto
 					{
 						GroomedJet_numberbjets_csvl_veto_ak7 = GroomedJet_numberbjets_csvl_veto_ak7 + 1;
@@ -1267,10 +1256,6 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 					{
 						GroomedJet_numberbjets_csvm_veto_ak7 = GroomedJet_numberbjets_csvm_veto_ak7 + 1;
 					}
-					/*if(JetPFCor_bDiscriminator[i] > btssv)//ttbar veto
-					{
-						GroomedJet_numberbjets_ssvhem_veto_ak7 = GroomedJet_numberbjets_ssvhem_veto_ak7 + 1;
-					}*/
 				}
 			}
 
@@ -1374,7 +1359,7 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 				calculateAngles(mum, mup, ak7subjet1p4, ak7subjet2p4, tmpa_costheta1, tmpa_costheta2, tmpa_phi, tmpa_costhetastar, tmpa_phistar1, tmpa_phistar2);
 			}
 			boostedZ_zjj_ang_ha_ak7 = tmpa_costheta1; boostedZ_zjj_ang_hb_ak7 = fabs(tmpa_costheta2); boostedZ_zjj_ang_hs_ak7 = tmpa_costhetastar;  boostedZ_zjj_ang_phi_ak7 = tmpa_phi; boostedZ_zjj_ang_phia_ak7 = tmpa_phistar1; boostedZ_zjj_ang_phib_ak7 = tmpa_phistar2;
-
+*/
 		}
 		//###############End Boosted W Analysis########################################
 
@@ -1516,7 +1501,7 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 		branch_boostedZ_zjj_ang_phia->Fill();
 		branch_boostedZ_zjj_ang_phib->Fill();
 
-		//AK7 Jet Algorithm
+/*		//AK7 Jet Algorithm
 		branch_ggdboostedZevt_ak7->Fill();
 		branch_GroomedJet_AK7_deltaR_lplusak7jet->Fill();
 		branch_GroomedJet_AK7_deltaR_lminusak7jet->Fill();
@@ -1587,7 +1572,7 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 		branch_boostedZ_zjj_ang_phi_ak7->Fill();
 		branch_boostedZ_zjj_ang_phia_ak7->Fill();
 		branch_boostedZ_zjj_ang_phib_ak7->Fill();
-
+*/
 	} // end event loop
 	fresults.cd();
 	newtree->Write("ZJet",TObject::kOverwrite);
@@ -1595,7 +1580,7 @@ void kanamuon::Loop(TH1F* h_events, TH1F* h_events_weighted, int wda, int runfla
 	h_events_weighted->Write();
 	delete newtree;
 	fresults.Close();
-	fclose(textfile);
+	//fclose(textfile);
 	std::cout <<  wda << " Finish :: " << outfilename << "    "<< nentries  << std::endl;
 }
 
